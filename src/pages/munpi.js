@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
 const Munpi = () => {
     const margin = {
@@ -32,7 +33,7 @@ const Munpi = () => {
                     </div>
                 </div>
             </div>
-            <footer />
+            <Footer />
         </>
     );
 };
