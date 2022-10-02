@@ -5,6 +5,7 @@ import Navbar from './components/Navbar';
 import About from "./pages/About";
 import Experiments from "./pages/experiments";
 import Munpi from "./pages/munpi";
+import Download from "./pages/Download";
 
 const App = () => {
     return (
@@ -15,6 +16,7 @@ const App = () => {
                     <Route exact path="/about" element={<About/>} />
                     <Route exact path="/munpi" element={<Munpi/>} />
                     <Route exact path="/experiments" element={<Experiments/>} />
+                    <Route exact path="/download" element={<Download/>} />
                 </Routes>
             </Router>
         </>
