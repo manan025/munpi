@@ -1,25 +1,34 @@
 import React from 'react';
 import Navbar from "../components/Navbar";
-import AboutMockup6 from "../logo.png";
 
 const Munpi = () => {
+    const margin = {
+        margin: "10% 0"
+    }
     return (
         <>
             <Navbar munpi={true}/>
             <div className="about">
                 <div className="aboutflex">
                     <div className="aboutext">
-                        <h1>Download Now</h1>
-                        <h2>English Version</h2>
+                        <h1>Download English Version</h1>
                         <div>
                         <a href="/English.zip"><button className="btn-download">Download</button></a>
                         </div>
-                        <h2>Spanish Version</h2>
-                        <a href="/Spanish.zip"><button className="btn-download">Download</button></a>
                     </div>
                     <div className="aboutimage">
-                        <img src={AboutMockup6} alt="" className="width"/>
-
+                        <img src={"/muandpi1.png"} alt="" className="width"/>
+                    </div>
+                </div>
+                <div className="aboutflex">
+                    <div className="aboutimage">
+                        <img src={"/muandpi2.png"} alt="" className="width"/>
+                    </div>
+                    <div className="aboutext">
+                        <h1>Download Spanish Version</h1>
+                        <div style={margin}>
+                        <a href="/Spanish.zip"><button className="btn-download">Download</button></a>
+                        </div>
                     </div>
                 </div>
             </div>
