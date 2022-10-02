@@ -4,7 +4,7 @@ const Download = () => {
     return (
         <>
             redirecting to download page
-            <meta http-equiv="refresh" content="0;url=https://spacecows.earth/muandpi.apk" />
+            <meta http-equiv="refresh" content="0;url=https://spacecows.earth/downloads/muandpi.apk" />
         </>
     );
 };
