@@ -3,9 +3,11 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
 const Munpi = () => {
+
     const margin = {
         margin: "10% 0"
     }
+
     return (
         <>
             <Navbar munpi={true}/>
@@ -13,7 +15,7 @@ const Munpi = () => {
                 <div className="aboutflex">
                     <div className="aboutext">
                         <h1>Download English Version</h1>
-                        <div>
+                        <div style={margin}>
                         <a href="/English.zip"><button className="btn-download">Download</button></a>
                         </div>
                     </div>
