@@ -1,0 +1,92 @@
+.hlo {
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+}
+
+.main {
+    max-width: 75%;
+    margin: auto;
+}
+.heroflex {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+.textflex {
+    display: flex;
+    flex-direction: column;
+    margin-top: 120px;
+}
+.textflex h1 {
+    font-size: 5.5rem;
+    font-family: sans-serif;
+    background-image: linear-gradient(
+            180deg,
+            #000000 0%,
+            rgba(0, 0, 0, 0.55) 100%
+    );
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    font-family: "Helvetica", monospace;
+    font-weight: 700;
+}
+.textflex p {
+    font-size: 1.5rem;
+    margin-top: 25px;
+}
+.buttons {
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+}
+.btn-download {
+    background: var(--primary-color);
+    width: 120px;
+    height: 40px;
+    border: none;
+    outline: none;
+    color: white;
+    margin-right: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "Lato";
+    font-weight: 700;
+}
+.buttons a {
+    text-decoration: none;
+    color: var(--secondary-color);
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    font-family: "Lato";
+    font-weight: 700;
+}
+.image img {
+    width: 500px;
+}
+@media screen and (max-width: 960px) {
+    .main {
+        max-width: 100%;
+    }
+    .heroflex {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 90vw;
+        margin: auto;
+    }
+    .textflex h1 {
+        font-size: 5rem;
+    }
+    .textflex p {
+        font-size: 1.3rem;
+    }
+    .image img {
+        max-width: 80vw;
+        margin: auto;
+        margin-top: 50px;
+    }
+}

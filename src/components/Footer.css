@@ -1,0 +1,62 @@
+.full {
+    background: var(--primary-color);
+    color: white;
+    margin-top: 100px;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    max-width: 75%;
+    margin: auto;
+    padding-bottom: 20px;
+}
+.loging {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.hol img {
+    width: 100px;
+}
+.shit {
+    max-width: 300px;
+    font-family: "Lato", monospace;
+    margin-top: 20px;
+    font-size: 1rem;
+}
+.linkss {
+    display: flex;
+    justify-content: space-evenly;
+    min-width: 50%;
+    margin-top: 40px;
+    align-items: center;
+}
+.fist {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.fist a {
+    text-decoration: none;
+    font-family: "Lato";
+    font-size: 0.9rem;
+    margin-top: 8px;
+    color: white;
+}
+.soojao h2 {
+    font-size: 1.2rem;
+}
+.social {
+    min-width: 12%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+@media screen and (max-width: 960px) {
+    .full {
+        display: none;
+    }
+}
