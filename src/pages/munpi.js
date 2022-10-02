@@ -32,6 +32,7 @@ const Munpi = () => {
                     </div>
                 </div>
             </div>
+            <footer />
         </>
     );
 };
