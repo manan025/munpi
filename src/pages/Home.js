@@ -4,6 +4,9 @@ import Navbar from "../components/Navbar";
 import './Home.css';
 
 const Home = () => {
+    const style = {
+        margin: "0 auto"
+    }
     return (
         <>
             <Navbar home={true}/>
@@ -18,7 +21,7 @@ const Home = () => {
                         </div>
                     </div>
                     <div className="image">
-                        <img src={Image} alt="mockup" />
+                        <img src={"/home.png"} alt="mockup" style={style}/>
                     </div>
                 </div>
             </div>
